@@ -1,0 +1,30 @@
+.description{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    color: black;
+    background: linear-gradient(to bottom , white , rgba(255, 255, 255, 0.671));
+  
+    z-index: 200;
+    padding: 20px;
+    border: 10px;
+    width: 300px;
+    border-radius: 20px;
+    
+}
+.arrow{
+
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    display: none;
+    border-bottom: 20px solid white;
+    position: absolute;
+    top: 46%;
+    left: 26%;
+}
+.imgbox:hover .description , .imgbox:hover .arrow{
+    display: block;
+}

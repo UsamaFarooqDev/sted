@@ -1,0 +1,20 @@
+.btnblue{
+    background-color: #00AEB2 !important;
+    color: white !important;
+    padding: 5px;
+    border-radius: 0px !important;
+}
+.btnorange{
+    background-color: #F26322 !important;
+    color: white !important;
+    padding: 5px;
+    border-radius: 0px !important;
+}
+.servicesbluebox{
+    background-color: #00AEB2;
+    padding: 0 10px 0 10px;
+    color: white;
+}
+.servicesbluebox h3{
+    font-family: 'NBI';
+}

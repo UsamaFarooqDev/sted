@@ -1,0 +1,24 @@
+.wrapperjob{
+    background-image: url(../images/jobdesback.png);
+    height: 100%;
+    padding: 10px 100px 100px 100px;
+    background-size: cover;
+}
+.jobbbox{
+    background-color: black;
+    padding: 50px;
+    color: white;
+    position: relative;
+}
+form{
+    background-color: white;
+    color: black;
+    padding: 80px;
+position: absolute;
+width: 500px;
+height: 400px;
+margin-top: -40px;
+margin-bottom: -40px;
+top: 0;
+box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.199);
+}
