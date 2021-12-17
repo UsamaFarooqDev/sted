@@ -22,3 +22,32 @@ margin-bottom: -40px;
 top: 0;
 box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.199);
 }
+@media screen and (max-width: 768px) {
+.jobbbox{
+padding: 0px !important;
+position: initial;
+}
+form{
+background-color: white;
+color: black;
+padding: 40px;
+position: static;
+
+height: 400px;
+margin-top: 20px;
+
+box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.199);
+}
+.formjob{
+    display: flex;
+    justify-content: center;
+  
+    width: 100%;
+    
+  
+}
+.wrapperjob{
+    padding: 10px;
+}
+
+}
