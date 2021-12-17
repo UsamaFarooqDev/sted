@@ -75,6 +75,7 @@ h2{
 .NP span{
     font-size: 10px;
 }
+
 .boxd{
     display: flex;
     flex-direction: column;
@@ -263,7 +264,9 @@ small{
     font-family: 'NBI';
 }
 
-
+#mobslider{
+    display: none;
+}
 @media screen and (max-width: 1300px) {
     .header{
         background-image: url('/images/back.png');
@@ -319,5 +322,10 @@ small{
         height: 100px;
         margin-bottom: 15px;
     }
-    
+  #mobslider{
+      display: block;
+  }
+  #pcslider{
+      display: none;
+  }
 }
